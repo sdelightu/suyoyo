@@ -8,32 +8,32 @@
 <body>
 	<nav>
 		<ul>
-			<li>關於我</li>
-    		<li>珍藏書籤</li>
-    		<li>推薦影片</li>
+			<li><a href="#aboutme">關於我</a></li>
+    		<li><a href="#bookmark">珍藏書籤</a></li>
+    		<li><a href="youtube">推薦影片</a></li>
     	</ul>
 	</nav>
 
 	<main>
 
 			<nav>
-				<h1>楊子青 (Tzyy-Ching Yang)  http://www1.pu.edu.tw/~tcyang</h1>
-				<h2>靜宜大學 https://www.pu.edu.tw/
-				 / 資訊管理學系 https://csim.pu.edu.tw/</h2>
+				<h1><a href="http://www1.pu.edu.tw/~tcyang">楊子青 (Tzyy-Ching Yang)  </a></h1>
+				<h2><a href="https://www.pu.edu.tw/">靜宜大學</a>
+				 / <a href="https://csim.pu.edu.tw/">資訊管理學系</a></h2>
 			 </nav>
 
-			照片
-			family.jpg
+			<img src="family.jpg" alt="照片">
+			<br><br><br>
 
-			<session> 
+		<session id="aboutme"> 
 			<header>關於我</header>
 			<h3>職稱：靜宜大學資訊管理學系副教授</h3>
 			<h3>經歷：靜宜大學服務學習發展中心兼產業學院推動辦公室主任(2012年8月～2015年8月)</h3>
-			<h3>Tel: 04-26328001#18110</h3>
-			<h3>E-Mail: tcyang@pu.edu.tw</h3>
-			</session> 
+			<h3>Tel:<a href="tel:0426328001,18110">04-26328001#18110</a></h3>
+			<h3>E-Mail: <a href="mailto:tcyang@pu.edu.tw">tcyang@pu.edu.tw</a></h3>
+		</session> 
 
-		<article>
+		<article id="bookmark">
 			<header>珍藏書籤</header>
 			<h3>生命中的每一剎時間</h3>
 			<h3>都是向永恆借來的片羽</h3>
@@ -41,14 +41,15 @@
 			<h3>都是無限天機所流瀉的微光</h3>
 		</article>
 
-		<aside>
+		<aside id="youtube">
 			<header>推薦影片</header>
-			https://www.youtube.com/watch?v=AhAJ6J01R7w
+			<iframe src="https://www.youtube.com/embed/pW88QFpHXa8" allowfullscreen></iframe>
 		</aside>
 
 		<footer>
 			Copyright ©  楊子青. All Rights Reserved.
 		</footer>
 	</main>
+
 </body>
 </html>
